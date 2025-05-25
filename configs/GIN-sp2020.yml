@@ -2,7 +2,6 @@ data_config:
   batch_size: 128
 
 model_config:
-  model_name: GIN
   hidden_size: 64
   n_layers: 2
   dropout_p: 0.3
@@ -11,11 +10,11 @@ model_config:
 
 shared_config:
   learn_edge_att: false
-  precision_k: 3
-  num_viz_samples: 5
-  viz_interval: 10
+  precision_k: 
+  num_viz_samples: 
+  viz_interval: 
   viz_norm_att: true
-  extractor_dropout_p: 0.5
+  extractor_dropout_p: 
 
 GSAT_config:
   method_name: 'GSAT'
@@ -24,8 +23,8 @@ GSAT_config:
   epochs: 100
   lr: 1.0e-3
 
-  from_scratch: true
-  fix_r: false
-  decay_interval: 10
-  decay_r: 0.1
-  final_r: 0.5
+  from_scratch: 
+  fix_r: 
+  decay_interval: 
+  decay_r: 
+  final_r: 
