@@ -1,0 +1,1 @@
+# iconv -f GBK -t UTF-8 event_log.yml -o event_log_utf8.yml
