@@ -2,7 +2,6 @@ data_config:
   batch_size: 128
 
 model_config:
-  model_name: GIN
   hidden_size: 64
   n_layers: 1
   dropout_p: 0.1
