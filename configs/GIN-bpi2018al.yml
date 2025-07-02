@@ -1,0 +1,30 @@
+data_config:
+  batch_size: 128
+
+model_config:
+  hidden_size: 64
+  n_layers: 1
+  dropout_p: 0.1
+  pretrain_lr: 1.0e-3
+  pretrain_epochs: 100
+
+shared_config:
+  learn_edge_att: true
+  precision_k: 
+  num_viz_samples: 
+  viz_interval: 
+  viz_norm_att: true
+  extractor_dropout_p: 
+
+GSAT_config:
+  method_name: 'GSAT'
+  pred_loss_coef: 1
+  info_loss_coef: 1
+  epochs: 100
+  lr: 1.0e-3
+
+  from_scratch: 
+  fix_r: 
+  decay_interval: 
+  decay_r: 
+  final_r: 
